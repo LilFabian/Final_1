@@ -103,7 +103,7 @@ if(digitalRead(4)==HIGH){
 } 
 void alarma(){
   for(int i = 1; i<= 10; i++){ 
- tone(buzzerPin, frecuencia, duracion); // Hacer sonar el buzzer
-  delay(1000); // Espera 1 segundo antes de volver a sonar
+ tone(buzzerPin, frecuencia, duracion); 
+  delay(1000); 
   }
 }
